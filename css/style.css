@@ -1,0 +1,145 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  background-color: rgb(159, 135, 203);
+  color: #333;
+  height: 60px;
+  width: 100vw;
+  /* padding-top: 20px; */
+  position: fixed;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 150px;
+}
+span {
+  font-size: 17px;
+  /* margin-right: 40px; */
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.button2 {
+  background-color: pink;
+  padding: 7px 26px;
+  border-radius: 3px;
+  color: #fff;
+}
+.button1 {
+  /* margin-left: 150px; */
+  background-color: rgb(159, 135, 203);
+}
+button {
+  margin-left: 20px;
+  border: hidden;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+}
+.alivio {
+  margin-right: 10%;
+  /* margin-left: 200px; */
+  color: pink;
+  font-size: 25px;
+  font-weight: 600;
+  opacity: 1;
+}
+.a {
+  padding-top: 5px;
+}
+.body {
+  background-image: url(https://img.thuthuatphanmem.vn/uploads/2018/10/01/hinh-nen-mau-hong-cute-de-thuong_040307620.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content1 {
+  height: fit-content;
+  width: 550px;
+  background-color: rgb(221, 176, 214);
+  margin-left: 300px;
+  margin-bottom: 220px;
+  padding: 20px 10px;
+}
+.content1 p {
+  line-height: 25px;
+}
+.content1 h1 {
+  margin-bottom: 20px;
+  color: pink;
+}
+.button3 {
+  margin-top: 20px;
+  background-color: pink;
+  padding: 7px 26px;
+  border-radius: 3px;
+  margin-left: 180px;
+}
+/* .ba {
+  position: relative;
+}
+.bc {
+  position: absolute;
+  display: none;
+}
+img {
+  height: 200px;
+} */
+span:first-child:hover {
+  color: cornflowerblue;
+  transform: scale(1.5);
+  /* background-color: #333; */
+  /* z-index: 999; */
+}
+span:nth-child(2):hover {
+  color: chartreuse;
+  transform: scale(1.3);
+  opacity: 1;
+  /* background-color: #333; */
+  /* height: 60px; */
+}
+span:nth-child(3):hover {
+  color: red;
+  transform: scale(1.3);
+  opacity: 1;
+}
+span:nth-child(4):hover {
+  color: aqua;
+  transform: scale(1.3);
+  opacity: 1;
+}
+span:nth-child(5):hover {
+  color: yellow;
+  transform: scale(1.3);
+  opacity: 1;
+}
+/* .aa img {
+  position: absolute;
+  opacity: 0;
+} */
+.button1:hover {
+  color: blue;
+  transform: scale(1.2);
+}
+.button2:hover {
+  color: darkgreen;
+  transform: scale(1.2);
+}
+/* .b1:hover .bc {
+  display: block;
+}
+.aa:hover img {
+  opacity: 1;
+} */
